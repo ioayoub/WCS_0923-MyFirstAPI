@@ -1,4 +1,10 @@
-create table item (
-  id int unsigned primary key auto_increment not null,
-  title varchar(255) not null
+CREATE TABLE item (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  title VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE thing (
+  id INT AUTO_INCREMENT NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  PRIMARY KEY(id)
+)
